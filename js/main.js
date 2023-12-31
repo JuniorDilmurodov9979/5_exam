@@ -93,7 +93,7 @@ elTotalWrapper.addEventListener('click', (evt)=> {
         liEL.classList.add('list-group-item')
         let totalBalanceEl = document.createElement('strong')
         let totalBalance = totalIncome - totalExpenses;
-        totalBalanceEl.textContent = `Total expenses: ${totalBalance}`;
+        totalBalanceEl.textContent = `Total balance: ${totalBalance}`;
         liEL.append(totalBalanceEl)
         elList.appendChild(liEL)
     }
