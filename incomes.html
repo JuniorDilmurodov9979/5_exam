@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Incomes page</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center m-4">Incomes page</h1>
+        <div class="wrapper-main d-flex justify-content-center gap-5">
+            <div class="btn-wrapper d-flex flex-column gap-2 w-25 border shadow p-3 js-main-wrapper">
+                <button class="btn btn__main btn-primary">main</button>
+                <button class="btn btn__history btn-info">history</button>
+                <button class="btn btn__incomes btn-success">incomes</button>
+                <button class="btn btn__expenses btn-secondary">expenses</button>
+                <button class="btn btn__log-out btn-danger mt-auto">Log out</button>
+            </div>
+            <div class="wrapper-trans d-flex w-75 gap-4 border rounded p-3 shadow">
+                <form class="js-wrapper-form d-flex flex-column gap-2 w-25">
+                    <input type="text" class="js-title form-control " placeholder="Give a title" required>
+                    <input type="number" class="js-amount form-control " placeholder="Enter the amount" required>
+                    <input type="text" class="js-category form-control " placeholder="Where that comes.." required>
+                    <textarea class="js-desc form-control" cols="20" rows="5" placeholder="Description..." required></textarea>
+                    <input type="date" class="js-date form-control " placeholder="Enter the date" required>
+                    <button class="btn btn-success mt-auto">Submit</button>
+                </form>
+                <div class="incomes-list-wrapper">
+                    <ul class="incomes-list list-group d-flex flex-column gap-2 js-incomes-list list-unstyled py-0 mx-0 w-100">
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/incomes.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

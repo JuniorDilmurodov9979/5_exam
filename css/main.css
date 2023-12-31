@@ -1,0 +1,14 @@
+.js-desc {
+    resize: none;
+}
+.incomes-list {
+    height: 400px;
+    overflow-y: auto;
+}
+.border-css {
+    border-right: 1px solid rgb(75, 72, 72);
+    border-left: 1px solid rgb(75, 72, 72);
+}
+.js-history-list {
+    height: 400px;
+}
